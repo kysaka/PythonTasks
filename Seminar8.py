@@ -11,10 +11,6 @@ def save_data(phonebook):
     except:
         print("Невозможно сохранить файл")
 
-    
-    #     file.writelines(phonebook)
-    # print("Телефонный справочник успешно сохранен.")
-
 # создаем функцию для чтения данных из файла
 def load_data():
     filename = ("Справочник.txt")
